@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Texnikum-turizm</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="https://xabar.uz/static/crop/2/0/920__95_2070776830.jpg" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" data-lang-uz="Mijoz login" data-lang-ru="Вход клиента" data-lang-en="Client Login">Mijoz login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab" data-lang-uz="Kirish" data-lang-ru="Войти" data-lang-en="Login">Kirish</a></li>
+					<!-- <li><a href="#Registration" data-toggle="tab">Sign-in</a></li> -->
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Username" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Parol" type="password">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1" data-lang-uz="Jo'natish" data-lang-ru="Отправить" data-lang-en="Submit">
+										Jo'natish
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="nima">
+            <img class="komd" src="https://www.buxtt.uz/wp-content/uploads/2019/07/logo15.png" alt="">
+        </div>
+    </div>
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html" data-lang-uz="Bosh sahifa" data-lang-en="Home" data-lang-ru="Дом">Bosh sahifa</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html"  data-lang-uz="Biz haqimizda" data-lang-en="About us" data-lang-ru="О нас">Biz haqimizda</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="course-grid-3.html"  data-lang-uz="Kurslar" data-lang-en="Courses" data-lang-ru="Месячные">Kurslar </a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="blog.html"  data-lang-uz="Blog" data-lang-en="Blog" data-lang-ru="Блог">Blog </a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="teachers.html"  data-lang-uz="O'qituvchilar" data-lang-en="Teachers" data-lang-ru="Учителей">O'qituvchilar</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html"  data-lang-uz="Aloqa" data-lang-en="Contact" data-lang-ru="Контакт">Aloqa</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-lang-uz="Til" data-lang-en="Language" data-lang-ru="Язык">
+								Til
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item language-switcher" href="#" data-lang="uz">UZ</a>
+								<a class="dropdown-item language-switcher" href="#" data-lang="ru">RU</a>
+								<a class="dropdown-item language-switcher" href="#" data-lang="en">ENG</a>
+							</div>
+						</li>
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login" ><span data-lang-uz="Kirish" data-lang-en="Login" data-lang-ru="Войти">Kirish</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false">
+		<!-- Indicators -->
+		<ol class="carousel-indicators" id="carousel-indicators">
+			<!-- Indicators will be populated by JavaScript -->
+		</ol>
+		<div class="carousel-inner" role="listbox" id="carousel-inner">
+			<!-- Slides will be populated by JavaScript -->
+		</div>
+		<!-- Left Control -->
+		<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="fa fa-angle-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<!-- Right Control -->
+		<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="fa fa-angle-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	
+	<div class="section wb">
+		<div class="container">
+			<div class="section-title row text-center">
+				<div class="col-md-8 offset-md-2">
+					<h3 id="about-title" data-lang-uz="Biz haqimizda" data-lang-en="About Us" data-lang-ru="О нас">Biz haqimizda</h3>
+					
+				</div>
+			</div>
+			<!-- About Items -->
+			<div class="row align-items-center" id="about-items">
+				<!-- About items will be populated by JavaScript -->
+			</div>
+		</div><!-- end container -->
+	</div><!-- end section -->
+	
+	
+	<section class="section lb page-section">
+		<div class="container">
+			<div class="section-title row text-center">
+				<div class="col-md-8 offset-md-2">
+					<h3 data-lang-uz="Bizning tariximiz" data-lang-en="Our History" data-lang-ru="Наша история">Bizning tariximiz</h3>
+					
+				</div>
+			</div><!-- end title -->
+			<div class="timeline" id="history">
+				<!-- History items will be populated by JavaScript -->
+			</div>
+		</div>
+	</section>
+	
+	
+
+	<div class="section cl">
+		<div class="container">
+			<div class="row text-left stat-wrap" id="results">
+				<!-- Results will be populated by JavaScript -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+	
+	<div class="parallax section dbcolor">
+		<div class="container">
+			<div class="row logos" id="partners">
+				<!-- Partner logos will be populated by JavaScript -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+	
+	<!-- <div id="results" class="row"></div>
+	<div id="partners" class="row"></div> -->
+	
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3 data-lang-uz="Biz haqimizda" data-lang-en="About Us" data-lang-ru="О нас">Biz haqimizda</h3>
+                        </div>
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3 data-lang-uz="Malumotlar havolasi" data-lang-en="References" data-lang-ru="Ссылки">Malumotlar havolasi</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#" data-lang-uz="Bosh sahifa" data-lang-en="Home" data-lang-ru="Дом">Bosh sahifa</a></li>
+                            <li><a href="#" data-lang-uz="Blog" data-lang-en="Blog" data-lang-ru="Блог">Blog</a></li>
+                            <!-- <li><a href="#">Pricing</a></li> -->
+							<li><a href="#" data-lang-uz="Biz haqimizda" data-lang-en="About Us" data-lang-ru="О нас">Biz haqimizda</a></li>
+							<li><a href="#" data-lang-uz="Aloqa" data-lang-en="Contact" data-lang-ru="Контакт">Aloqa</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3 data-lang-uz="Aloqa detallari" data-lang-en="Contact Details" data-lang-ru="Контактная информация">Aloqa detallari</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@texnikumturizm.com</a></li>
+                            <li><a href="#">www.texnikum.com</a></li>
+                            <li>+998 77 001 15 92</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+     <script src="./js/app.js"></script>
+    <script src="js/all.js"></script>
+	<script src="js/about.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+    </script>
+</body>
+</html>

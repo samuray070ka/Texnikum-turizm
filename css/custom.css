@@ -1,0 +1,187 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+.komd{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+}
+.nima{
+    background-color: #6a799edf;
+    width: 100%;
+    height: 100vh;
+   
+}
+.dsadasd{
+    width: 300px;
+    height: auto;
+    word-wrap: break-word;
+}
+.ds{
+    display: flex;
+}
+.full-height {
+    height: 100vh; /* To'liq ekranning balandligi */
+    background-size: cover; /* Rasmni to'liq moslashtirish */
+    background-position: center center; /* Rasmni markazlashtirish */
+    background-repeat: no-repeat; /* Rasmni takrorlashni oldini olish */
+  }
+.img {
+    max-width: 100%;
+    height: auto; /* Rasmning nisbatlarini saqlash uchun */
+    display: block;
+}
+.carousel-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Butun ekran bo'ylab qiling */
+}
+
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Yarim shaffof qora fon, kontentni ko'rinadigan qilish uchun */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.big-tagline {
+    color: #fff; /* Oq matn */
+    z-index: 2;  /* Matnni oldinga olib chiqish */
+}
+
+.big-tagline h2 {
+    font-size: 3rem; /* Katta title */
+    margin-bottom: 20px;
+}
+
+.big-tagline p {
+    font-size: 1.5rem; /* Katta description */
+    margin-bottom: 30px;
+}
+
+.hover-btn-new a {
+    background-color: #ff5e3a; /* Tugmaning fon rangini tanlash */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hover-btn-new a:hover {
+    background-color: #ff3a1f; /* Hover effekti uchun rang */
+}
+#results .col-lg-3, #results .col-md-6, #results .col-sm-6, #results .col-xs-12,
+#partners .col-lg-2, #partners .col-md-2, #partners .col-sm-4, #partners .col-xs-6 {
+  margin-bottom: 15px;
+}
+
+.stat-wrap {
+  text-align: center;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.stat-count {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+#about-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row on large screens */
+    gap: 20px;
+}
+
+.about-item {
+    max-width: 300px; /* Set a smaller width */
+    margin: 0 auto; /* Center the items */
+}
+
+.about-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    #about-items {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    #about-items {
+        grid-template-columns: 1fr; /* 1 item per row on smartphones */
+    }
+}
+.about-section img {
+  width: 300px; /* Set your desired width */
+  height: 200px; /* Set your desired height */
+  object-fit: cover; /* Ensures images are scaled without distortion */
+}
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.timeline__item {
+    position: relative;
+    margin: 20px 0;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.timeline__item:nth-child(odd) {
+    float: left;
+    clear: both;
+    text-align: left;
+}
+
+.timeline__item:nth-child(even) {
+    float: right;
+    clear: both;
+    text-align: right;
+}
+
+.timeline__content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5); /* Dark background for text */
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.timeline__content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image is behind the text */
+    border-radius: 5px;
+}
+
+.timeline__item:nth-child(odd) .timeline__content {
+    background: rgba(0, 0, 0, 0.5); /* Dark background for odd items */
+}
+
+.timeline__item:nth-child(even) .timeline__content {
+    background: rgba(0, 0, 0, 0.5); /* Dark background for even items */
+}
